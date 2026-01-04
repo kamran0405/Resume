@@ -93,34 +93,36 @@ const resumeData = {
       details: [
         "Certificate in full‑stack web development after completing a 320‑hour program.",
       ],
-      credentialUrl: "", // Optional: add verification link if you have one
-      credentialId: "",  // Optional
+      credentialUrl: "", 
+      credentialId: "",  
     },
   ],
 
-  // ===== PROJECTS – PLACEHOLDER STRUCTURE FOR YOU TO FILL LATER =====
+  
   projects: [
     {
-      name: "Project One Name",
-      tagline: "Short one-line description of what this project does.",
-      role: "Full-Stack Developer",
-      bullets: [
-        "Briefly describe the main purpose of the project (e.g. task manager, e-commerce site, dashboard, etc.).",
-        "Explain what you built on the frontend (e.g. responsive UI in React with React-Bootstrap).",
-        "Explain what you built on the backend (e.g. REST API using Node.js/Express).",
-        "Mention how you used the database (e.g. Neon / Firebase) and what data you store.",
-        "Add any interesting features (authentication, CRUD operations, validation, API integrations, etc.).",
-      ],
-      techStack: [
-        "React",
-        "Node.js",
-        "Express",
-        "Neon (PostgreSQL) or Firebase", // Choose the one you used
-        "Bootstrap",
-      ],
-      githubUrl: "https://github.com/your-username/your-project-one", // TODO: replace
-      liveUrl: "https://your-deployed-project-one.com",               // TODO: optional
-    },
+  name: "WorkoutFlow",
+  tagline: "A fitness‑themed todo app to plan, track, and manage your workout routine.",
+  role: "Developer",
+  bullets: [
+    "Fitness‑focused todo web app that lets users plan, track, and manage their workout routines.",
+    "Built a centered, card‑based UI in React with a purple/green fitness theme, including a light/dark mode toggle.",
+    "Implemented full CRUD: create, view, edit on a dedicated page, and delete workout tasks.",
+    "Added search, status filter (All/Active/Completed), category filter (Cardio, Strength, Yoga, HIIT, Stretching, Rest), and multiple sort options.",
+    "Used React Context and a custom localStorage hook to persist tasks and theme across page refreshes, with no backend required.",
+  ],
+  techStack: [
+    "React",
+    "Vite",
+    "React Router",
+    "Bootstrap 5",
+    "CSS",
+    "LocalStorage",
+    "Netlify",
+  ],
+  githubUrl: "https://github.com/kamran0405/WorkoutFlow", 
+  liveUrl: "https://workoutflow.netlify.app/",      
+},
     {
       name: "Project Two Name",
       tagline: "Short one-line description of your second project.",
