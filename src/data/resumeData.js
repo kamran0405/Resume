@@ -194,8 +194,8 @@ const resumeData = {
 
   // ===== CONTACT – PLACEHOLDER STRUCTURE =====
   contact: {
-    email: "your.email@example.com", // TODO: replace with your real public email
-    phone: "+60-XXXXXXXXX",          // TODO: optional, you can leave empty if you don’t want to show it
+    email: "kamran45.dev@gmail.com", // TODO: replace with your real public email
+    phone: "+60-102467901",          // TODO: optional, you can leave empty if you don’t want to show it
     location: "Batu Caves, Malaysia",
     openTo: "Remote or onsite full‑stack roles",
   },
